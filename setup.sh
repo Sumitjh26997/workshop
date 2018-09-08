@@ -27,11 +27,13 @@ do
         geth --help;;
 
     2) #Install nodejs and npm
+        
         sudo apt-get install curl python-software-properties
         curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
         sudo apt-get install nodejs
         echo "nodejs version:" 
         node -v
+        sudo apt-get install npm
         echo "npm version:"
         npm -v;;
 
