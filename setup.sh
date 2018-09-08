@@ -19,14 +19,14 @@ do
 
     case $ch in
 
-    1.) #Installing Go Ethereum
+    1) #Installing Go Ethereum
         sudo apt-get install software-properties-common
         sudo add-apt-repository -y ppa:ethereum/ethereum
         sudo apt-get update
         sudo apt-get install ethereum
         geth --help;;
 
-    2.) #Install nodejs and npm
+    2) #Install nodejs and npm
         sudo apt-get install curl python-software-properties
         curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
         sudo apt-get install nodejs
@@ -35,13 +35,13 @@ do
         echo "npm version:"
         npm -v;;
 
-    3.) #Install solc 
+    3) #Install solc 
         sudo npm install solc;;
 
-    4.) #Install web3
+    4) #Install web3
         sudo npm install web3;;
 
-    5.) #Install python and pip
+    5) #Install python and pip
         sudo add-apt-repository ppa:jonathonf/python-3.6
         sudo apt update
         sudo apt install python3.6
